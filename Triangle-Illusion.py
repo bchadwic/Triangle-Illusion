@@ -16,8 +16,8 @@ win.tracer(2)
 
 while True: #added while true to create a loop for the whole program
         colors = ["black", "white"] #created a list of triangle fill colors for the for loop to chose from
-        for i in colors: # created a for loop for all the background colors and fill colors to randomize through
-            if i == "black": # created an if statement to get the opposite color of i for the pen color and assigned variables to each colors
+        for i in colors: #created a for loop for all the background colors and fill colors to randomize through
+            if i == "black": #created an if statement to get the opposite color of i for the pen color and assigned variables to each colors
                 colorpen = "white"
             else:
                 colorpen = "black"
@@ -28,10 +28,10 @@ while True: #added while true to create a loop for the whole program
             
             ben.speed(0)
             ben.pensize(10)
-            ben.pencolor(pencolor) # called for the pencolor variable for the pen's color
-            ben.hideturtle()#hid turtle so program looks better when going through the loop
+            ben.pencolor(pencolor) #called for the pencolor variable for the pen's color
+            ben.hideturtle() #hide turtle so program looks better when going through the loop
             
-            #begin drawing outer part of triangle in black, filled with white
+            #begin drawing outer part of triangle
             ben.penup()
             ben.goto(-25, 220)
             ben.pendown()
@@ -89,9 +89,9 @@ while True: #added while true to create a loop for the whole program
             ben.penup()
             #finished left inner line
 
-            ben.goto(0,100)#set turtle to top of inner triangle
+            ben.goto(0,100) #set turtle to top of inner triangle
             ben.pendown()
-            ben.speed(0)#speed up turtle
+            ben.speed(0) #speed up turtle
 
             
             #created a list of colors in order for future use on background and inner fill triangle
@@ -116,13 +116,4 @@ while True: #added while true to create a loop for the whole program
                 win.bgcolor(colorchoice) # change the background of window to match filled in section after triangle is made to make sure the colors are in sync
                 time.sleep(.00) #add a delay to make the program run smoother and it doesnt take as much processing power from the computer
                     #program loops again
-                
-
-
-
-
-
-
-
-
-
+               
