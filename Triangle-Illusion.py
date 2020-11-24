@@ -1,5 +1,5 @@
 #Ben_Chadwick_Triangle_Illusion
-#Program prints an opticalillusion of a triangle, then utilizes the random module to change the fill color and background color rapidly
+#Program prints an optical illusion of a triangle
 #Ben Chadwick
 #10/26/20
 
